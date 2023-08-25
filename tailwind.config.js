@@ -19,6 +19,7 @@ module.exports = {
       md: '768px',
       lg: '960px',
       xl: '1200px',
+      xxl:'1536px',
     },
     extend: {
       colors: {
@@ -28,6 +29,7 @@ module.exports = {
       },
       backgroundImage: {
         explosion: 'url("/bg-explosion.png")',
+        computer: 'url("/computer.jpg")',
         circles: 'url("/bg-circles.png")',
         circleStar: 'url("/circle-star.svg")',
         site: 'url("/site-bg.svg")',
