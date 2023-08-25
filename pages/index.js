@@ -16,7 +16,7 @@ const Home = () => {
 						initial='hidden'
 						animate='show'
 						exit='hidden'
-						className='h1'
+						className='h1 xxl:text-7xl'
 					>
 						Transforming Ideas <br /> {''} Into{' '}
 						<span className='text-accent'>Digital Reality</span>{' '}
@@ -26,7 +26,7 @@ const Home = () => {
 						initial='hidden'
 						animate='show'
 						exit='hidden'
-						className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
+						className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 text-1xl xl:text-2xl'
 					>
 						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni id
 						amet perferendis rem inventore delectus!
@@ -46,11 +46,11 @@ const Home = () => {
 				</div>
 			</div>
 
-			<div className='w-[1400px] h-full absolute right-0 bottom-0'>
+			<div className='w-[1800px] h-full absolute right-0 bottom-0'>
 				<div className='bg-none xl:bg-computer xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute  mix-blend-color-dodge'>
 				</div>
 
-				<div>Particles</div>
+				<ParticlesContainer/>
 				
 			</div>
 		</div>
