@@ -50,7 +50,7 @@ const Home = () => {
 				<div className='bg-none xxl:bg-computer xxl:bg-cover xxl:bg-right xxl:bg-no-repeat w-full h-full absolute  mix-blend-color-dodge'>
 				</div>
 
-				<ParticlesContainer/>
+				{/* <ParticlesContainer/> */}
 				
 			</div>
 		</div>
