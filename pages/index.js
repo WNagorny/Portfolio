@@ -10,7 +10,7 @@ const Home = () => {
 	return (
 		<div className='bg-primary/60 h-full'>
 			<div className='w-full h-full bg-gradient-to-r from-primary/10 via-black/30'>
-				<div className='text-center flex flex-col justify-center xl:pt40 xl:text-left h-full container mx-auto'>
+				<div className='text-center flex flex-col justify-center xxl:pt40 xxl:text-left h-full container mx-auto'>
 					<motion.h1
 						variants={fadeIn('down', 0.2)}
 						initial='hidden'
@@ -26,7 +26,7 @@ const Home = () => {
 						initial='hidden'
 						animate='show'
 						exit='hidden'
-						className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 text-1xl xl:text-2xl'
+						className='max-w-sm xxl:max-w-xl mx-auto xxl:mx-0 mb-10 xxl:mb-16 xxl:text-2xl'
 					>
 						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni id
 						amet perferendis rem inventore delectus!
@@ -46,8 +46,8 @@ const Home = () => {
 				</div>
 			</div>
 
-			<div className='w-[1800px] h-full absolute right-0 bottom-0'>
-				<div className='bg-none xl:bg-computer xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute  mix-blend-color-dodge'>
+			<div className='w-[1500px] h-full absolute right-0 bottom-0'>
+				<div className='bg-none xxl:bg-computer xxl:bg-cover xxl:bg-right xxl:bg-no-repeat w-full h-full absolute  mix-blend-color-dodge'>
 				</div>
 
 				<ParticlesContainer/>
