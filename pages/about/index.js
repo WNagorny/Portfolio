@@ -2,17 +2,16 @@ import React, { useState } from 'react'
 
 // icons
 import {
-	FaHtml5,
-	FaCss3,
 	FaJs,
 	FaReact,
-	FaWordpress,
 	FaFigma,
+	FaSass
 } from 'react-icons/fa'
+
+import {SiTailwindcss,SiTypescript} from 'react-icons/si'
 
 import {
 	SiNextdotjs,
-	SiFramer,
 	SiAdobexd,
 	SiAdobephotoshop,
 } from 'react-icons/si'
@@ -25,13 +24,12 @@ const aboutData = [
 			{
 				title: 'Web Development',
 				icons: [
-					<FaHtml5 />,
-					<FaCss3 />,
 					<FaJs />,
 					<FaReact />,
+					<SiTypescript/>,
 					<SiNextdotjs />,
-					<SiFramer />,
-					<FaWordpress />,
+					<SiTailwindcss />,
+					<FaSass/>,
 				],
 			},
 			{
@@ -203,7 +201,7 @@ const About = () => {
 					exit='hidden'
 					className='flex flex-col w-full xl:max-w-[45%] h-[580px]'
 				>
-					<div className='flex gap-x-3 md:gap-x-8 text-lg md:text-2xl xl:gap-x-8 mx-auto xl:mx-0 mb-4'>
+					<div className='flex gap-x-3 md:gap-x-8 text-lg xl:gap-x-8 mx-auto xl:mx-0 mb-4'>
 						{aboutData.map((item, itemIndex) => {
 							return (
 								<div
@@ -211,7 +209,7 @@ const About = () => {
 									className={` ${
 										index === itemIndex &&
 										'text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-500'
-									} cursor-pointer capitalize xl:text-2xl xxl:text-3xl relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-2 after:left-0 z-10`}
+									} cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-2 after:left-0 z-10`}
 									onClick={() => setIndex(itemIndex)}
 								>
 									{item.title}
@@ -225,7 +223,7 @@ const About = () => {
 							return (
 								<div
 									key={itemIndex}
-									className='flex-1 flex flex-col md:flex-row max-2-max gap-x-2 items-center  text-lg xl:text-xl xxl:text-2xl text-white/60'
+									className='flex-1 flex flex-col md:flex-row max-2-max gap-x-2 items-center  text-lg  text-white/60'
 								>
 									<div className='font-light mb-2 md:mb:0 '>{item.title}</div>
 									<div className='hidden xl:flex'>-</div>
