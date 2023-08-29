@@ -101,7 +101,7 @@ import { fadeIn } from '../../variants'
 
 const About = () => {
 	const [index, setIndex] = useState(0)
-  console.log(index)
+	console.log(index)
 
 	return (
 		<div className='h-full bg-primary/30 py-32 text-center xl:text-left'>
@@ -115,20 +115,44 @@ const About = () => {
 			>
 				<Avatar />
 			</motion.div>
-      <div className='container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-9'>
-        <div>text</div>
-        <div>
-          <div className='flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4'>
-            {aboutData.map((item, itemInidex) => {
-              return (
-                <div key={itemInidex} className={` ${index === itemInidex && 'text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300'} cursor-pointer capitalize xl:text-2xl relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
-                onClick={() => setIndex(itemInidex)}>{item.title}</div>
-              )
-            })}
-          </div>
+			<div className='container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6'>
+				<div className='flex-1 flex flex-col justify-center'>text</div>
+				<div className='flex flex-col w-full xl:max-w-[48%] h-[780px]'>
+					<div className='flex gap-x-4 md:gap-x-9 text-lg md:text-xl xl:gap-x-8 mx-auto xl:mx-0 mb-4'>
+						{aboutData.map((item, itemIndex) => {
+							return (
+								<div
+									key={itemIndex}
+									className={` ${
+										index === itemIndex &&
+										'text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-500'
+									} cursor-pointer capitalize xl:text-2xl relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-2 after:left-0 z-10`}
+									onClick={() => setIndex(itemIndex)}
+								>
+									{item.title}
+								</div>
+							)
+						})}
+					</div>
 
-        </div>
-      </div>
+					<div className='py-4 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4  items-center xl:items-start'>
+						{aboutData[index].info.map((item, itemIndex) => {
+							return (
+								<div key={itemIndex} className='flex-1 flex flex-col md:flex-row max-2-max gap-x-2 items-center text-white/60'>
+									<div>{item.title}</div>
+									<div className='hidden xl:flex'>-</div>
+									<div>{item.stage}</div>
+									<div className='flex gap-x-4'>
+										{item.icons?.map((icon, itemIndex) => {
+											return <div key={itemIndex} className='text-3xl'>{icon}</div>
+										})}
+									</div>
+								</div>
+							)
+						})}
+					</div>
+				</div>
+			</div>
 		</div>
 	)
 }
