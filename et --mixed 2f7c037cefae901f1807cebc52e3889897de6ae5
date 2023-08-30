@@ -1,0 +1,162 @@
+[33mcommit 2f7c037cefae901f1807cebc52e3889897de6ae5[m[33m ([m[1;36mHEAD -> [m[1;32mWork-feature[m[33m)[m
+Author: WNagorny <walery.nagorny@gmail.com>
+Date:   Wed Aug 30 17:12:27 2023 +0200
+
+    adding workslider compoennt
+
+[33mcommit 57bf9becaa1f3233b681ea99611209bdb6f73b5c[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Merge: 69ad8f9 93bfbfd
+Author: WNagorny <walery.nagorny@gmail.com>
+Date:   Tue Aug 29 17:36:21 2023 +0200
+
+    Merge branch 'About-feature'
+
+[33mcommit 93bfbfdb78c33fd662bece1de8d975afa5a5f3ea[m[33m ([m[1;32mAbout-feature[m[33m)[m
+Author: WNagorny <walery.nagorny@gmail.com>
+Date:   Tue Aug 29 17:35:23 2023 +0200
+
+    fixed icons and size
+
+[33mcommit 69ad8f98941cd81ee3d20fb557f13a6adf64d68d[m[33m ([m[1;32mServices-feature[m[33m)[m
+Author: WNagorny <walery.nagorny@gmail.com>
+Date:   Tue Aug 29 17:21:50 2023 +0200
+
+    configuration swiper + added motion animation
+
+[33mcommit 4e2111e70dc0b967bcea6334c41f777d6eee1f4e[m
+Author: WNagorny <walery.nagorny@gmail.com>
+Date:   Tue Aug 29 17:09:45 2023 +0200
+
+    configuration swiper part 2
+
+[33mcommit 463351bf46531dc24fee005be6dc0a7d1abda1b3[m
+Author: WNagorny <walery.nagorny@gmail.com>
+Date:   Tue Aug 29 16:47:47 2023 +0200
+
+    configuration Swiper part 1
+
+[33mcommit 19c09d9b80ba6167400e05aa22d74d4e087ac297[m
+Author: WNagorny <walery.nagorny@gmail.com>
+Date:   Tue Aug 29 16:36:16 2023 +0200
+
+     added services structure
+
+[33mcommit 037418813d7ce8e33232e9a9a3232e3fc870c92c[m
+Author: WNagorny <walery.nagorny@gmail.com>
+Date:   Tue Aug 29 11:09:51 2023 +0200
+
+    added motion animation
+
+[33mcommit 02cce0da1398a3c7cbc84d17eae94fd9bf483b37[m
+Author: WNagorny <walery.nagorny@gmail.com>
+Date:   Tue Aug 29 11:00:14 2023 +0200
+
+    added counters info
+
+[33mcommit d231aaa43d1542c5085de3c6590f010086f0c6f3[m
+Author: WNagorny <walery.nagorny@gmail.com>
+Date:   Tue Aug 29 09:46:36 2023 +0200
+
+    adding skills section
+
+[33mcommit 48a7e201e931c71d0416c734ad35996b8b19eb0e[m
+Author: WNagorny <walery.nagorny@gmail.com>
+Date:   Mon Aug 28 15:28:42 2023 +0200
+
+    added data
+
+[33mcommit 0773409b212e487098ba450ec0a37527be76c48c[m
+Author: WNagorny <walery.nagorny@gmail.com>
+Date:   Mon Aug 28 14:59:38 2023 +0200
+
+    added circle-pulse amimation
+
+[33mcommit 5b36c21b540a5159097492ae9217e48d6cab8cb9[m[33m ([m[1;32mHeader-feature[m[33m)[m
+Author: WNagorny <walery.nagorny@gmail.com>
+Date:   Mon Aug 28 14:46:15 2023 +0200
+
+    finished socials component
+
+[33mcommit e484d460986d4a7501739971852988960a8bec07[m
+Author: WNagorny <walery.nagorny@gmail.com>
+Date:   Mon Aug 28 14:15:56 2023 +0200
+
+    added socials component + fixed myProject button
+
+[33mcommit 82bc90904af9237d929200ba9f056f37abf94636[m
+Author: WNagorny <walery.nagorny@gmail.com>
+Date:   Mon Aug 28 12:54:56 2023 +0200
+
+    added logo svg in Header component
+
+[33mcommit 0afaca7df09a01ba0eb6723d9c60984f3fcfa330[m
+Author: WNagorny <walery.nagorny@gmail.com>
+Date:   Mon Aug 28 12:01:39 2023 +0200
+
+    fixed bg-size
+
+[33mcommit 3bbe5d2861c9f3457b4cbc26433ad25a00302aa5[m[33m ([m[1;32mHome-page[m[33m)[m
+Author: WNagorny <walery.nagorny@gmail.com>
+Date:   Fri Aug 25 17:34:22 2023 +0200
+
+    added Particles Container
+
+[33mcommit 6d318e4cf79e92656f1a95c492b7ed76433bf78f[m
+Author: WNagorny <walery.nagorny@gmail.com>
+Date:   Fri Aug 25 16:51:49 2023 +0200
+
+    styled background home page
+
+[33mcommit 358ec59131d4333f54510fc13bc9d7a841898d67[m
+Author: WNagorny <walery.nagorny@gmail.com>
+Date:   Thu Aug 24 17:39:29 2023 +0200
+
+    added bg to Home page
+
+[33mcommit 3f27a6fac3480fe1b693ba3e1edc3a5a3aab91c7[m
+Author: WNagorny <walery.nagorny@gmail.com>
+Date:   Thu Aug 24 16:48:38 2023 +0200
+
+    adding animation on large-screen
+
+[33mcommit 9cb65770fd279a7231fb1f12a819e91f1f44ad20[m
+Author: WNagorny <walery.nagorny@gmail.com>
+Date:   Thu Aug 24 16:30:23 2023 +0200
+
+    styled text and animation to Home page
+
+[33mcommit aa68858b760936bf2a41c61c1efc28121b0a0b7f[m[33m ([m[1;32mTransition-feature[m[33m, [m[1;32mNavigation-feature[m[33m)[m
+Author: WNagorny <walery.nagorny@gmail.com>
+Date:   Thu Aug 24 11:56:39 2023 +0200
+
+    finished trnasition-effect
+
+[33mcommit c3a4b199eb4da68fbb48a7c33ad8699d0a491d4f[m
+Author: WNagorny <walery.nagorny@gmail.com>
+Date:   Thu Aug 24 11:51:44 2023 +0200
+
+    added transition effect to Nav
+
+[33mcommit 4196c9a30ba2b73dec32e7d06a886bb678f5217f[m
+Author: WNagorny <walery.nagorny@gmail.com>
+Date:   Thu Aug 24 11:37:41 2023 +0200
+
+    styled nav component
+
+[33mcommit da23724f32afa2f5fd5653892d9081a86b91faeb[m
+Author: WNagorny <walery.nagorny@gmail.com>
+Date:   Thu Aug 24 11:03:27 2023 +0200
+
+    added style to Nav
+
+[33mcommit dc587103b92fc47a1dc482ce25512887c98762b5[m[33m ([m[1;32mLayout-setup[m[33m)[m
+Author: WNagorny <walery.nagorny@gmail.com>
+Date:   Thu Aug 24 10:06:55 2023 +0200
+
+    finished layout setup
+
+[33mcommit 68dacb6195e5db15649bc7f9f56b851e71d3a6f0[m
+Author: WNagorny <walery.nagorny@gmail.com>
+Date:   Thu Aug 24 09:17:37 2023 +0200
+
+    first commit
