@@ -93,14 +93,12 @@ const WorkSlider = () => {
 											<Image src={image.path} width={500} height={300} alt='' />
 
 											{/* overlay gradient */}
-											<div className='absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700'></div>
+											<div className='absolute inset-0 bg-gradient-to-l from-transparent via-[#265f63] to-[#aea762] opacity-0 group-hover:opacity-80 transition-all duration-700'></div>
 											{/* title */}
 											<div className='absolute bottom-0 translate-y-full group-hover:-translate-y-16 group-hover:xl:-translate-y-24 transition-all duration-300 cursor-default'>
 												<div className='flex items-center gap-x-2 text-[13px] tracking-[0.2em]'>
-													{/* title 1 */}
-
-													<div className='delay-500'>LIVE</div>
-													{/* title 2 */}
+					
+													{/* title */}
 													<div className='translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-200'>
 														{image.title}
 													</div>
@@ -112,7 +110,7 @@ const WorkSlider = () => {
 													>
 														<div className=' ml-5 translate-y-[500%] group-hover:translate-y-0 duration-300 delay-300 transition-all cursor-pointer '>
 															
-															<BsArrowRight className='text-xl transform transition-transform duration-300 delay-300 group-hover:scale-150 animate-pulse' />
+															<BsArrowRight className='text-xl transform transition-transform duration-1000 delay-700 group-hover:scale-150 animate-ping' />
 														</div>
 													</a>
 												</div>
