@@ -36,7 +36,7 @@ import 'swiper/css/free-mode'
 import 'swiper/css/pagination'
 
 // icons
-import { BsArrowRight } from 'react-icons/bs'
+import { FaQuoteLeft } from 'react-icons/fa'
 
 // data
 
@@ -54,10 +54,10 @@ const TestimonialSlider = () => {
 			{ testimonialData.map((person, index) => {
 				return (
 					<SwiperSlide key={index}>
-            <div>
+            <div className='flex flex-col items-center md:flex-row gap-x-8 h-full px-16'>
 {/* avatar, name, position */}
-              <div>
-                <div>
+              <div className='w-full max-w-[300px] flex-flex-col xl:justify-center items-center relative mx-auto xl:mx-0'>
+                <div className='flex flex-col jc text-center'>
             {/* avatar */}
                   <div>avatar image</div>
             {/* name */}
@@ -67,8 +67,13 @@ const TestimonialSlider = () => {
                 </div>
               </div>
 {/* quote & message */}
-              <div>
-                quote & message
+              <div className=' flex-1 flex flex-col justify-center before:w-[1px] xl:before:bg-white/20 xl:before:absolute xl:before:left-0 xl:before:h-[200px] relative xl:pl-20'>
+            {/* quote icon */}
+            <div className='mb-4'>
+              <FaQuoteLeft className='text-4xl xl:text-6xl text-white/20 mx-auto md:mx-0'/>
+            </div>
+            {/* quote message */}
+                <div className ="xl:text-lg text-center md:text-left">{person.message}</div>
               </div>
             </div>
 					</SwiperSlide>
