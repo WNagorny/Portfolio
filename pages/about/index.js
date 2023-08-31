@@ -1,20 +1,11 @@
 import React, { useState } from 'react'
 
 // icons
-import {
-	FaJs,
-	FaReact,
-	FaFigma,
-	FaSass
-} from 'react-icons/fa'
+import { FaJs, FaReact, FaFigma, FaSass } from 'react-icons/fa'
 
-import {SiTailwindcss,SiTypescript} from 'react-icons/si'
+import { SiTailwindcss, SiTypescript } from 'react-icons/si'
 
-import {
-	SiNextdotjs,
-	SiAdobexd,
-	SiAdobephotoshop,
-} from 'react-icons/si'
+import { SiNextdotjs, SiAdobexd, SiAdobephotoshop } from 'react-icons/si'
 
 //  data
 const aboutData = [
@@ -24,17 +15,21 @@ const aboutData = [
 			{
 				title: 'Web Development',
 				icons: [
-					<FaJs />,
-					<FaReact />,
-					<SiTypescript/>,
-					<SiNextdotjs />,
-					<SiTailwindcss />,
-					<FaSass/>,
+					<FaJs key='fa-js' />,
+					<FaReact key='fa-react' />,
+					<SiTypescript key='si-typescript' />,
+					<SiNextdotjs key='si-nextdotjs' />,
+					<SiTailwindcss key='si-tailwindcss' />,
+					<FaSass key='fa-sass' />,
 				],
 			},
 			{
 				title: 'UI/UX Design',
-				icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+				icons: [
+					<FaFigma key='fa-figma' />,
+					<SiAdobexd key='si-adobexd' />,
+					<SiAdobephotoshop key='si-adobephotoshop' />,
+				],
 			},
 		],
 	},
