@@ -54,7 +54,23 @@ const TestimonialSlider = () => {
 			{ testimonialData.map((person, index) => {
 				return (
 					<SwiperSlide key={index}>
-					
+            <div>
+{/* avatar, name, position */}
+              <div>
+                <div>
+            {/* avatar */}
+                  <div>avatar image</div>
+            {/* name */}
+                  <div>name</div>
+            {/* position */}
+                  <div>position</div>
+                </div>
+              </div>
+{/* quote & message */}
+              <div>
+                quote & message
+              </div>
+            </div>
 					</SwiperSlide>
 				)
 			})}
