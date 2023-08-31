@@ -32,19 +32,18 @@ const Contact = () => {
 						{/* input group */}
 
 						<div className='flex gap-x-6 w-full'>
-							<input type='text' placeholder='name' className='input'  required />
+							<input type='text' name='name' placeholder='name' className='input'  required />
 							<input
 								type='text'
 								placeholder='email'
 								className='input'
-
-
+                name="email"
                 required
 							/>
             {/* <input type="text" /> */}
 						</div>
-						<input type='text' placeholder='subject' className='input' />
-						<textarea placeholder='message' className='textarea' required></textarea>
+						<input type='text' placeholder='subject' className='input' name="_subject" />
+						<textarea placeholder='message' name='message' className='textarea' required></textarea>
 						<button
 							type='submit'
 							className='btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group'
