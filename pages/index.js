@@ -18,8 +18,8 @@ const Home = () => {
 						exit='hidden'
 						className='h1 xxl:text-7xl'
 					>
-						Transforming Ideas <br /> {''} Into{' '}
-						<span className='text-accent'>Digital Reality</span>{' '}
+						Frontend Elegance<br /> {''}  Where Code{' '}
+						<span className='text-accent'> Meets Art</span>{' '}
 					</motion.h1>
 					<motion.p
 						variants={fadeIn('down', 0.3)}
@@ -28,8 +28,7 @@ const Home = () => {
 						exit='hidden'
 						className='max-w-sm xxl:max-w-xl mx-auto xxl:mx-0 mb-10 xxl:mb-16 xxl:text-2xl'
 					>
-						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni id
-						amet perferendis rem inventore delectus!
+						Code is like humor. When you have to explain it, it’s bad.
 					</motion.p>
 					<div className='flex justify-center xl:hidden relative'>
 						<ProjectsBtn />

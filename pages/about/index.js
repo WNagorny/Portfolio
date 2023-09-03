@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 // icons
-import { FaJs, FaReact, FaFigma, FaSass } from 'react-icons/fa'
+import { FaJs, FaReact, FaFigma, FaSass, FaBootstrap} from 'react-icons/fa'
 
 import { SiTailwindcss, SiTypescript } from 'react-icons/si'
 
@@ -17,8 +17,8 @@ const aboutData = [
 				icons: [
 					<FaJs key='fa-js' />,
 					<FaReact key='fa-react' />,
-					<SiTypescript key='si-typescript' />,
 					<SiNextdotjs key='si-nextdotjs' />,
+					<FaBootstrap key='bootstrap-react'/>,
 					<SiTailwindcss key='si-tailwindcss' />,
 					<FaSass key='fa-sass' />,
 				],
@@ -114,7 +114,7 @@ const About = () => {
 			<div className='container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6'>
 				{/* text */}
 
-				<div className='flex-1 flex flex-col justify-center'>
+				<div className='flex-1 flex flex-col justify-center mt-8'>
 					<motion.h2
 						variants={fadeIn('right', 0.2)}
 						initial='hidden'
@@ -122,19 +122,17 @@ const About = () => {
 						exit='hidden'
 						className='h2'
 					>
-						Captivating <span className='text-accent'>stories</span> bith
-						magnificent designs.
+						The only way to do <span className='text-accent'>great </span> work is to love what you do
 					</motion.h2>
 					<motion.p
 						variants={fadeIn('right', 0.4)}
 						initial='hidden'
 						animate='show'
 						exit='hidden'
-						className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2  xl:px-0'
+						className='max-w-[700px] mx-auto xl:mx-0 mb-10 mt-6 xl:mb-16 px-2  xl:px-0'
 					>
-						10 years ago, I began freelancing as a developer. Since then, I have
-						done remote work for agencies, consulted fir startups, and
-						collaborated on digital priducts for bussines
+						From a distance, it appeared that I had reached the pinnacle of my career as a team leader in a renowned company. I was part of something significant. However, something still tugged at my heart. <br /><br /> At a certain point, I realized that in order to fulfill this dream, I had to leave the comfortable paths. I resigned from a position that seemed to be the goal in itself to begin working on my true passion. <br /><br />
+						 It was a pivotal moment, a bold step into the unknown, towards fulfilling my dreams. This is a story of courage, passion, and the pursuit of my own path in the world of professional success.
 					</motion.p>
 
 					{/* counters */}
@@ -150,7 +148,7 @@ const About = () => {
 							{/* experience */}
 							<div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
 								<div className='text-2xl xl:text-4xl font-extrabold text-accent  mb-2'>
-									<CountUp start={0} end={10} duration={7} /> +
+									<CountUp start={0} end={2} duration={7} /> +
 								</div>
 								<div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px] my-2'>
 									Years of experince
@@ -159,28 +157,28 @@ const About = () => {
 							{/* cleints */}
 							<div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
 								<div className='text-2xl xl:text-4xl font-extrabold text-accent mb-2'>
-									<CountUp start={0} end={250} duration={7} /> +
+									<CountUp start={0} end={150} duration={7} /> +
 								</div>
 								<div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px] my-2'>
-									Satisfied clients
+									sleepless nights
 								</div>
 							</div>
 							{/* projects */}
 							<div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
 								<div className='text-2xl xl:text-4xl font-extrabold text-accent  mb-2'>
-									<CountUp start={0} end={650} duration={7} /> +
+									<CountUp start={0} end={1500} duration={7} /> +
 								</div>
 								<div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px] my-2'>
-									Finished projects
+									hours of study
 								</div>
 							</div>
 							{/* awards */}
 							<div className='relative flex-1'>
 								<div className='text-2xl xl:text-4xl font-extrabold text-accent  mb-2'>
-									<CountUp start={0} end={8} duration={7} /> +
+									<CountUp start={0} end={15} duration={7} /> +
 								</div>
 								<div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px] my-2'>
-									Winnig awards
+								Finished projects
 								</div>
 							</div>
 						</div>
