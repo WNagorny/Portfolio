@@ -19,23 +19,24 @@ const workSlider = {
 		{
 			images: [
 				{
+					title: 'E-COMMERCE ADMIN PANEL',
+					path: '/admin-new.png',
+					url: 'https://ecommerce-admin-lac-zeta.vercel.app/',
+				},
+				{
+					title: 'E-COMMERCE STORE',
+					path: '/store-new.png',
+					url: 'https://weather-react-app-gules.vercel.app/',
+				},
+				{
 					title: 'WEATHER-APP',
-					path: '/thumb1.jpg',
+					path: '/weather-new.jpg',
 					url: 'https://weather-react-app-gules.vercel.app/',
 				},
+				
 				{
-					title: 'TODO-LIST',
-					path: '/thumb2.jpg',
-					url: 'https://react-todo-list-nine-xi.vercel.app/',
-				},
-				{
-					title: 'title',
-					path: '/thumb3.jpg',
-					url: 'https://weather-react-app-gules.vercel.app/',
-				},
-				{
-					title: 'title',
-					path: '/thumb4.jpg',
+					title: 'CRYPTO TRACKER',
+					path: '/coinVibe-new.png',
 					url: 'https://weather-react-app-gules.vercel.app/',
 				},
 			],
@@ -43,22 +44,22 @@ const workSlider = {
 		{
 			images: [
 				{
-					title: 'title',
-					path: '/thumb4.jpg',
+					title: 'TODO-LIST',
+					path: '/todo-new.png',
+					url: 'https://react-todo-list-nine-xi.vercel.app/',
+				},
+				{
+					title: 'TIP CALCULATOR',
+					path: '/calculator-new.png',
 					url: 'https://weather-react-app-gules.vercel.app/',
 				},
 				{
-					title: 'title',
-					path: '/thumb1.jpg',
-					url: 'https://weather-react-app-gules.vercel.app/',
-				},
-				{
-					title: 'title',
+					title: 'IN PROGRESS ...',
 					path: '/thumb2.jpg',
 					url: 'https://weather-react-app-gules.vercel.app/',
 				},
 				{
-					title: 'title',
+					title: 'IN PROGRESS ...',
 					path: '/thumb3.jpg',
 					url: 'https://weather-react-app-gules.vercel.app/',
 				},
