@@ -15,25 +15,17 @@ const Work = () => {
 				<div className='flex flex-col xl:flex-row gap-x-8'>
 					{/* text */}
 
-					<div className='text-center flex xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0'>
+					<div className='text-center flex xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0 text'>
 						<motion.h2
 							variants={fadeIn('up', 0.2)}
 							initial='hidden'
 							animate='show'
 							exit='hidden'
-							className='h2 xl:mt-16'
+							className='lg:text-4xl text-2xl xl:mt-16 mb-6'
 						>
-							My works <span className='text-accent'>.</span>
+							First, solve the problem <br /> Then, write the code <span className='text-accent'>.</span>
 						</motion.h2>
-						<motion.p
-							variants={fadeIn('up', 0.4)}
-							initial='hidden'
-							animate='show'
-							exit='hidden'
-							className='mb-4 max-w-[400px] mx-auto lg:mx-0'
-						>
-							First, solve the problem. Then, write the code.
-						</motion.p>
+						
 					</div>
 
 					{/* slider */}
