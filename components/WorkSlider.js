@@ -51,17 +51,17 @@ const workSlider = {
 				{
 					title: 'TIP CALCULATOR',
 					path: '/calculator-new.png',
-					url: 'https://weather-react-app-gules.vercel.app/',
+					url: '#',
 				},
 				{
 					title: 'IN PROGRESS ...',
 					path: '/thumb2.jpg',
-					url: 'https://weather-react-app-gules.vercel.app/',
+					url: '#',
 				},
 				{
 					title: 'IN PROGRESS ...',
 					path: '/thumb3.jpg',
-					url: 'https://weather-react-app-gules.vercel.app/',
+					url: '#',
 				},
 			],
 		},
