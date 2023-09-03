@@ -10,7 +10,7 @@ import { SiNextdotjs, SiAdobexd, SiAdobephotoshop } from 'react-icons/si'
 //  data
 const aboutData = [
 	{
-		title: 'skills',
+		title: 'Known Technologies',
 		info: [
 			{
 				title: 'Web Development',
@@ -33,53 +33,7 @@ const aboutData = [
 			},
 		],
 	},
-	{
-		title: 'awards',
-		info: [
-			{
-				title: 'Webby Awards - Honoree',
-				stage: '2011 - 2012',
-			},
-			{
-				title: 'Adobe Design Achievement Awards - Finalist',
-				stage: '2009 - 2010',
-			},
-		],
-	},
-	{
-		title: 'experience',
-		info: [
-			{
-				title: 'UX/UI Designer - XYZ Company',
-				stage: '2012 - 2023',
-			},
-			{
-				title: 'Web Developer - ABC Agency',
-				stage: '2010 - 2012',
-			},
-			{
-				title: 'Intern - DEF Corporation',
-				stage: '2008 - 2010',
-			},
-		],
-	},
-	{
-		title: 'credentials',
-		info: [
-			{
-				title: 'Web Development - ABC University, LA, CA',
-				stage: '2011',
-			},
-			{
-				title: 'Computer Science Diploma - AV Technical Institute',
-				stage: '2009',
-			},
-			{
-				title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
-				stage: '2006',
-			},
-		],
-	},
+	
 ]
 
 // components
@@ -194,15 +148,12 @@ const About = () => {
 					exit='hidden'
 					className='flex flex-col w-full xl:max-w-[45%] h-[580px]'
 				>
-					<div className='flex gap-x-3 md:gap-x-8 text-lg xl:gap-x-8 mx-auto xl:mx-0 mb-4'>
+					<div className='flex gap-x-3 md:gap-x-8 text-xl xl:text-2xl xl:gap-x-8 mx-auto xl:mx-0 mb-4'>
 						{aboutData.map((item, itemIndex) => {
 							return (
 								<div
 									key={itemIndex}
-									className={` ${
-										index === itemIndex &&
-										'text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-500'
-									} cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-2 after:left-0 z-10`}
+									className='text-accent'
 									onClick={() => setIndex(itemIndex)}
 								>
 									{item.title}
