@@ -30,9 +30,10 @@ const Services = () => {
 							exit='hidden'
 							className='mb-4 max-w-[400px] mx-auto lg:mx-0'
 						>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-							aperiam! Facilis, soluta aut minus expedita ad aperiam iure ipsum
-							pariatur!
+							If you need professional services related to web development,
+							design, consultations, or technical support, I'm here to assist
+							you. Feel free to reach out, and together we can make your project
+							even better!
 						</motion.p>
 					</div>
 

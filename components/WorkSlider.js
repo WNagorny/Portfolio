@@ -26,7 +26,7 @@ const workSlider = {
 				{
 					title: 'E-COMMERCE STORE',
 					path: '/store-new.png',
-					url: 'https://weather-react-app-gules.vercel.app/',
+					url: 'https://ecommerce-store-nu-one.vercel.app/',
 				},
 				{
 					title: 'WEATHER-APP',
@@ -37,7 +37,7 @@ const workSlider = {
 				{
 					title: 'CRYPTO TRACKER',
 					path: '/coinVibe-new.png',
-					url: 'https://weather-react-app-gules.vercel.app/',
+					url: 'https://react-crypto-tracker-xi.vercel.app/',
 				},
 			],
 		},
