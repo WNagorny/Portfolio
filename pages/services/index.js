@@ -31,7 +31,7 @@ const Services = () => {
 							className='mb-4 max-w-[400px] mx-auto lg:mx-0'
 						>
 							If you need professional services related to web development,
-							design, consultations, or technical support, I'm here to assist
+							design, consultations, or technical support, I &apos; m here to assist
 							you. Feel free to reach out, and together we can make your project
 							even better!
 						</motion.p>
