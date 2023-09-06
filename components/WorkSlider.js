@@ -51,7 +51,7 @@ const workSlider = {
 				{
 					title: 'TIP CALCULATOR',
 					path: '/calculator-new.png',
-					url: '#',
+					url: 'https://tip-calculator-p5ni.vercel.app/',
 				},
 				{
 					title: 'IN PROGRESS ...',
