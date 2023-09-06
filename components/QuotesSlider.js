@@ -1,25 +1,25 @@
 // quotes data
 const QuotesData = [
 	{
-		image: '/t-avt-1.png',
-		name: 'Anne Smith',
-		position: 'Customer',
+		image: '/stevee.png',
+		name: 'Steve McConnell',
+		position: 'an expert in software engineering and project management',
 		message:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+			"Coding is a simple part of software development. Understanding the problem you're trying to solve is the difficult part",
 	},
 	{
-		image: '/t-avt-2.png',
-		name: 'Jane Doe',
-		position: 'Customer',
+		image: '/robert.png',
+		name: 'Robert A. Heinlein',
+		position: 'Aeronautical engineer and Science fiction author',
 		message:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+			'If you want to be a good programmer, you must be lazy and find shortcuts.',
 	},
 	{
-		image: '/t-avt-3.png',
-		name: 'Jhon Doe',
-		position: 'Customer',
+		image: '/mark.png',
+		name: 'Mark Zuckerberg',
+		position: 'CEO of Meta',
 		message:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+			"The value of our projects is not about how much money we make but how much we improve people's lives.",
 	},
 ]
 
