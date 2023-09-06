@@ -1,5 +1,5 @@
-// testimonial data
-const testimonialData = [
+// quotes data
+const QuotesData = [
 	{
 		image: '/t-avt-1.png',
 		name: 'Anne Smith',
@@ -41,7 +41,7 @@ import { FaQuoteLeft } from 'react-icons/fa'
 
 // data
 
-const TestimonialSlider = () => {
+const QuotesSlider = () => {
 	return (
 		<Swiper
 			navigation={true}
@@ -52,7 +52,7 @@ const TestimonialSlider = () => {
 			// className='h-[340px] sm:h-[400px] md:h-[480px] lg:h-[600px] xl:h-[510px] xxl:h-[630px]'
       className='h-[400px]'
 		>
-			{testimonialData.map((person, index) => {
+			{QuotesData.map((person, index) => {
 				return (
 					<SwiperSlide key={index}>
 						<div className='flex flex-col items-center md:flex-row gap-x-8 h-full px-16'>
@@ -91,4 +91,4 @@ const TestimonialSlider = () => {
 	)
 }
 
-export default TestimonialSlider
+export default QuotesSlider

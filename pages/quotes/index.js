@@ -1,10 +1,10 @@
 // components
-import TestimonialSlider from '../../components/TestimonialSlider'
+import QuotesSlider from '../../components/QuotesSlider'
 
 import { motion } from 'framer-motion'
 import { fadeIn } from '../../variants'
 
-const Testimonials = () => {
+const Quotes = () => {
 	return (
 		<div className='h-full bg-primary/30 py-32 text-center'>
 			<div className='container mx-auto h-full flex flex-col justify-center'>
@@ -16,7 +16,7 @@ const Testimonials = () => {
 					exit='hidden'
 					className='h2 mb-8 xl:mb-0'
 				>
-					What clients <span className='text-accent'>say.</span>
+					What people <span className='text-accent'>say.</span>
 				</motion.h2>
 				{/* slider */}
 				<motion.div
@@ -25,11 +25,11 @@ const Testimonials = () => {
 					animate='show'
 					exit='hidden'
 				>
-					<TestimonialSlider />
+					<QuotesSlider />
 				</motion.div>
 			</div>
 		</div>
 	)
 }
 
-export default Testimonials
+export default Quotes

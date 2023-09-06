@@ -55,12 +55,12 @@ const workSlider = {
 				},
 				{
 					title: 'IN PROGRESS ...',
-					path: '/thumb2.jpg',
+					path: '/blog.png',
 					url: '#',
 				},
 				{
 					title: 'IN PROGRESS ...',
-					path: '/thumb3.jpg',
+					path: '/zapytanie.png',
 					url: '#',
 				},
 			],

@@ -18,8 +18,8 @@ export const navData = [
 	{ name: 'services', path: '/services', icon: <HiRectangleGroup /> },
 	{ name: 'work', path: '/work', icon: <HiViewColumns /> },
 	{
-		name: 'testimonials',
-		path: '/testimonials',
+		name: 'Programming Wisdom',
+		path: '/quotes',
 		icon: <HiChatBubbleBottomCenterText />,
 	},
 	{
