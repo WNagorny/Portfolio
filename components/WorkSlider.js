@@ -19,6 +19,11 @@ const workSlider = {
 		{
 			images: [
 				{
+					title: 'LEARNING PLATFORM',
+					path: '/lms.png',
+					url: 'https://study-spot-lake.vercel.app/',
+				},
+				{
 					title: 'E-COMMERCE ADMIN PANEL',
 					path: '/admin-new.png',
 					url: 'https://ecommerce-admin-lac-zeta.vercel.app/',
@@ -28,12 +33,6 @@ const workSlider = {
 					path: '/store-new.png',
 					url: 'https://ecommerce-store-nu-one.vercel.app/',
 				},
-				{
-					title: 'WEATHER-APP',
-					path: '/weather-new.jpg',
-					url: 'https://weather-react-app-gules.vercel.app/',
-				},
-				
 				{
 					title: 'CRYPTO TRACKER',
 					path: '/coinVibe-new.png',
@@ -54,9 +53,9 @@ const workSlider = {
 					url: 'https://tip-calculator-p5ni.vercel.app/',
 				},
 				{
-					title: 'IN PROGRESS ...',
-					path: '/blog.png',
-					url: '#',
+					title: 'WEATHER-APP',
+					path: '/weather-new.jpg',
+					url: 'https://weather-react-app-gules.vercel.app/',
 				},
 				{
 					title: 'IN PROGRESS ...',
